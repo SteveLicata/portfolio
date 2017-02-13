@@ -25,7 +25,7 @@ h2, h4 {
   /*http://lea.verou.me/css3patterns/#starry-night*/
 }
 
-.portdiv, .about, .ed, .links {
+.portdiv, .about, .ed, .skills, .links {
   background-color: gray;
   margin: 0 auto;
   text-align: center;
