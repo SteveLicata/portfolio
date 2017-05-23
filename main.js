@@ -5,10 +5,24 @@ window.onload = function() {
 //
 // headerText.style.display = "none";
 
-//hide WEB DEVELOPER PORTFOLIO text
+//hide CSS background
 $("#title").hide();
-//display WEB DEVELOPER PORTFOLIO text after 3 seconds
-$("#title").show(3000);
+//display CSS background
+$("#title").show(4000);
 
+//hide WEB text
+$("#web").hide();
+//display WEB text
+$("#web").show(1000);
+
+//hide DEVELOPER text
+$("#dev").hide();
+//display DEVELOPER Text
+$("#dev").show(2000);
+
+//hide PORTFOLIO text
+$("#folio").hide();
+//display PORTFOLIO text
+$("#folio").show(3000);
 
 }; //end window onload
