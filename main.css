@@ -59,3 +59,7 @@ a {
   height: 15px;
   width: 15px;
 }
+
+#mobile-demo {
+  background-color: gray;
+}

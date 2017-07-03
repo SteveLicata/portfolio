@@ -21,6 +21,11 @@ $("#folio").hide();
 $("#folio").show(3000);
 
 
+//mobile navbar
+$(".button-collapse").sideNav();
+
+
+
 // Scrolling Code Attribution:
 // https://css-tricks.com/snippets/jquery/smooth-scrolling/
 
