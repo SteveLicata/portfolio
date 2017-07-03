@@ -18,6 +18,7 @@
 
     <div class="container">
 
+      <!-- NAVBAR -->
       <nav>
         <div class="nav-wrapper grey">
           <a href="#!" class="brand-logo"><h4>Steve Licata</h4></a>
@@ -35,16 +36,18 @@
         </div>
       </nav>
 
+
+      <!-- HEADER -->
       <div class="row">
-          <div class="col s12 m12 l12 header">
-            <div id="title">
-              <h2 id="web">W E B</h2>
-              <br><br>
-              <h2 id="dev">D E V E L O P E R</h2>
-              <br><br>
-              <h2 id="folio">P O R T F O L I O</h2>
-            </div>
+        <div class="col s12 m12 l12 header">
+          <div id="title">
+            <h2 id="web">W E B</h2>
+            <br><br>
+            <h2 id="dev">D E V E L O P E R</h2>
+            <br><br>
+            <h2 id="folio">P O R T F O L I O</h2>
           </div>
+        </div>
       </div>
 
       <hr>
@@ -53,9 +56,112 @@
 
       <br>
 
+      <!-- PROJECT BUTTONS -->
+
+      <!-- SHOW ALL -->
+      <div class="row">
+        <div class="col s12 m12 l12" id="showallbtn">
+          <center><a class="waves-effect waves-light btn" href="#portfolio">
+            <i class="material-icons right">code</i>
+              Show All
+          </a>
+        </div>
+        <!-- HIDE ALL -->
+        <div class="col s12 m12 l12" id="hideallbtn">
+          <center><a class="waves-effect waves-light btn" href="#portfolio">
+            <i class="material-icons right">code</i>
+            Hide All
+          </a>
+        </div>
+      </div>
+
+
+      <br>
+
+    <div id="buttons">
+
+      <div class="row">
+        <div class="col s4 m4 l4" id="websitebtn">
+          <center><a class="waves-effect waves-light btn" href="#websites">
+            <i class="material-icons right">business</i>
+            Sites
+          </a>
+        </div>
+        <div class="col s4 m4 l4" id="gamesbtn">
+          <center><a class="waves-effect waves-light btn" href="#games">
+            <i class="material-icons right">games</i>
+            Games
+            </a>
+        </div>
+        <div class="col s4 m4 l4" id="webappsbtn">
+          <center><a class="waves-effect waves-light btn" href="#webapps">
+            <i class="material-icons right">web</i>
+            Apps
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+
+      <!-- PROJECTS -->
+
+    <div id="websites">
+
+
+      <!-- KingsBountyBand Site -->
+      <div class="row port portdiv">
+        <h2><u>Websites</h2>
+        <div class="col s12 m12 l12">
+          <a href="https://kingsbountyband.herokuapp.com/" target="_blank" name="websites">
+            <h4>
+              Kings Bounty
+            </h4>
+          </a>
+          <a href="https://kingsbountyband.herokuapp.com/" target="_blank">
+            <video src="images/KingsBounty_AnimatedHomepage_Video copy.mov" controls autoplay loop height="75%" width="70%"></video>
+            <img src="images/KingsBounty_screenshot2 copy.png" alt="">
+          </a>
+          <p>
+            Website for band Kings Bounty. Built to mirror existing band site <a href="https://www.kingsbountyband.com" target="_blank">KingsBountyBand.com</a>.
+          </p>
+          <p>
+            Sinatra, Sendgrid API, Ruby, YouTube Developer Tools, HTML5, CSS3, jQuery, Bootstrap, Google Fonts
+          </p>
+        </div>
+      </div>
+
+      <!-- EVERYDAY RC Site -->
       <div class="row port portdiv">
         <div class="col s12 m12 l12">
-          <a href="https://stevelicata.github.io/number-guess-game/" target="_blank">
+          <a href="https://www.everydayrc.com/" target="_blank">
+            <h4>
+              EVERYDAY RC
+            </h4>
+          </a>
+          <a href="https://www.everydayrc.com/" target="_blank">
+            <img src="images/EverydayRC_screenshot copy.png" alt="">
+          </a>
+          <p>
+            Business website for successful YouTube Channel specializing in the Radio Control (RC) Hobby.
+          </p>
+          <p>
+            HTML5, CSS3, JavaScript, jQuery, Materialize, Google & Custom Font, Google/YouTube/Facebook Developer Tools, GoDaddy DNS
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <!-- end websites div -->
+
+
+    <div id="games">
+
+      <!-- NUMBER GUESS JS GAME -->
+      <div class="row port portdiv">
+        <h2><u>Games</h2>
+        <div class="col s12 m12 l12">
+          <a href="https://stevelicata.github.io/number-guess-game/" target="_blank" name="games">
             <h4>
               Guess the Number!
             </h4>
@@ -72,49 +178,37 @@
         </div>
       </div>
 
-
-        <div class="row port portdiv">
-          <div class="col s12 m12 l12">
-            <a href="https://kingsbountyband.herokuapp.com/" target="_blank">
-              <h4>
-                Kings Bounty
-              </h4>
-            </a>
-            <a href="https://kingsbountyband.herokuapp.com/" target="_blank">
-              <video src="images/KingsBounty_AnimatedHomepage_Video copy.mov" controls autoplay loop height="75%" width="70%"></video>
-              <img src="images/KingsBounty_screenshot2 copy.png" alt="">
-            </a>
-            <p>
-              Website for band Kings Bounty. Built to mirror existing band site <a href="https://www.kingsbountyband.com" target="_blank">KingsBountyBand.com</a>.
-            </p>
-            <p>
-              Sinatra, Sendgrid API, Ruby, YouTube Developer Tools, HTML5, CSS3, jQuery, Bootstrap, Google Fonts
-            </p>
-          </div>
-        </div>
-
-        <div class="row port portdiv">
-          <div class="col s12 m12 l12">
-            <a href="https://www.everydayrc.com/" target="_blank">
-              <h4>
-                EVERYDAY RC
-              </h4>
-            </a>
-            <a href="https://www.everydayrc.com/" target="_blank">
-              <img src="images/EverydayRC_screenshot copy.png" alt="">
-            </a>
-            <p>
-              Business website for successful YouTube Channel specializing in the Radio Control (RC) Hobby.
-            </p>
-            <p>
-              HTML5, CSS3, JavaScript, jQuery, Materialize, Google & Custom Font, Google/YouTube/Facebook Developer Tools, GoDaddy DNS
-            </p>
-          </div>
-        </div>
-
+      <!-- WHEEL OF FORTUNE -->
       <div class="row port portdiv">
         <div class="col s12 m12 l12">
-          <a href="https://songs-4-strings.herokuapp.com/" target="_blank">
+          <a href="https://github.com/SteveLicata/wheel-of-fortune-javascipt-game" target="_blank">
+            <h4>
+              Wheel Of Fortune
+            </h4>
+          </a>
+          <a href="https://github.com/SteveLicata/wheel-of-fortune-javascipt-game" target="_blank">
+            <img src="images/wof-style-js-game-screenshot copy.png" alt="">
+          </a>
+          <p>
+            Wheel of Fortune-style JavaScript word game. Guess each letter or solve the puzzle.
+          </p>
+          <p>
+            Javascript, Materialize, SASS, Google Fonts, HTML5
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <!-- end games div -->
+
+
+    <div id="webapps">
+
+      <!-- SONGS 4 STRING APP -->
+      <div class="row port portdiv">
+        <h2><u>Apps</h2>
+        <div class="col s12 m12 l12">
+          <a href="https://songs-4-strings.herokuapp.com/" target="_blank" name="webapps">
             <h4>
               Songs4Strings
             </h4>
@@ -134,6 +228,7 @@
         </div>
       </div>
 
+      <!-- BAKE & CO APP -->
       <div class="row port portdiv">
         <div class="col s12 m12 l12">
           <a href="https://my-bake.herokuapp.com/" target="_blank">
@@ -156,25 +251,7 @@
         </div>
       </div>
 
-      <div class="row port portdiv">
-        <div class="col s12 m12 l12">
-          <a href="https://github.com/SteveLicata/wheel-of-fortune-javascipt-game" target="_blank">
-            <h4>
-              Wheel Of Fortune
-            </h4>
-          </a>
-          <a href="https://github.com/SteveLicata/wheel-of-fortune-javascipt-game" target="_blank">
-            <img src="images/wof-style-js-game-screenshot copy.png" alt="">
-          </a>
-          <p>
-            Wheel of Fortune-style JavaScript word game. Guess each letter or solve the puzzle.
-          </p>
-          <p>
-            Javascript, Materialize, SASS, Google Fonts, HTML5
-          </p>
-        </div>
-      </div>
-
+      <!-- ROCKS OR FLOPS APP -->
       <div class="row port portdiv">
         <div class="col s12 m12 l12">
           <a href="https://rocks-or-flops-micro-blog-app.herokuapp.com/signin" target="_blank">
@@ -196,6 +273,9 @@
           </p>
         </div>
       </div>
+
+    </div>
+    <!-- end webapps div -->
 
 
       <h2><a name="about"></a>About Steve</h2>
@@ -228,6 +308,7 @@
           </p>
         </div>
       </div>
+
 
       <h2>Education</h2>
 
@@ -300,11 +381,14 @@
 
 
     </div>
+    <!-- end grid container -->
 
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
     <!-- my JS -->
     <script src="main.js"type="text/javascript"></script>
   </body>
