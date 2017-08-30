@@ -3,24 +3,24 @@ window.onload = function() {
 
 //WEB DEVELOPER PORTFOLIO header fade in
 //hide CSS background
-$("#title").hide();
+// $("#title").hide();
 //display CSS background
-$("#title").show(4000);
+// $("#title").show(4000);
 
 //hide WEB text
-$("#web").hide();
+// $("#web").hide();
 //display WEB text
-$("#web").show(1000);
+// $("#web").show(1000);
 
 //hide DEVELOPER text
-$("#dev").hide();
+// $("#dev").hide();
 //display DEVELOPER Text
-$("#dev").show(2000);
+// $("#dev").show(2000);
 
 //hide PORTFOLIO text
-$("#folio").hide();
+// $("#folio").hide();
 //display PORTFOLIO text
-$("#folio").show(3000);
+// $("#folio").show(3000);
 
 
 //mobile navbar collapse

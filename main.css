@@ -1,5 +1,7 @@
 body {
   background-color: #1a1a1a;
+  /*background-color: #E9E9E5;*/
+  /*background-color: #D4D6C8;*/
 }
 
 h2, h4 {
@@ -10,9 +12,9 @@ h2, h4 {
 }
 
 .header {
-  margin-bottom: 115px;
-  margin-top: 115px;
-  padding-top: 100px;
+  margin-bottom: 150px;
+  margin-top: 150px;
+  padding-top: 125px;
   background-color:black;
   background-image:
   radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
