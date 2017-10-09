@@ -4,10 +4,11 @@ body {
   /*background-color: #D4D6C8;*/
 }
 
-h2, h4 {
+h2, h3, h4 {
   text-align: center;
   color: white;
-  font-family: 'Cinzel', serif;
+  /*font-family: 'Cinzel', serif;*/
+  font-family: 'Cabin', sans-serif;
   font-weight: bold;
 }
 
